@@ -28,10 +28,10 @@ How to use
 	chmod +x /etc/bright_down.sh
 	chmod 700 /etc/bright_start.sh
 
- 3 - Add the next line to /etc/rc.local before "exit 0". 
+ 3 - Add the next line to /etc/rc.local
 	/etc/bright_start.sh
 
- 4 - Exceute /etc/bright_start.sh or restar your system.
+ 4 - Exceute /etc/bright_start.sh or restar your system
 
  5 - Change your keyboard shortcuts for calling bright_up.sh and bright_down.sh with the keyboard.
 	https://help.ubuntu.com/14.04/ubuntu-help/keyboard-shortcuts-set.html
