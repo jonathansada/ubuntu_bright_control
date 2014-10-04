@@ -1,7 +1,7 @@
 ubuntu_bright_control
 =====================
 
-A Brightness control solution for an Acer laptop in Ubuntu 14.04 with the keyboard.
+A brightness control solution for an Acer laptop in Ubuntu 14.04 with the keyboard.
 
 
 What is it does?
@@ -11,10 +11,10 @@ It uses the default system brightness config files for set the bright level and 
 You can configure keyboard shortcuts for execute the tasks.
 Also it saves the last value of your screen brightness and sets it up when your laptop is restarted.
 
-bright_up.sh	 -> Increments the brigtness level
-bright_down.sh	 -> Decrements the brigtness level
-bright_last.conf -> Saves the last brightness value
-bright_start.sh  -> Sets the needed permissions to the files and set the brightness to the value stored in bright_last.conf
+ - bright_up.sh	-> Increments the brigtness level
+ - bright_down.sh -> Decrements the brigtness level
+ - bright_last.conf -> Saves the last brightness value
+ - bright_start.sh -> Sets the needed permissions to the files and set the brightness to the value stored in bright_last.conf
 
 
 How to use
