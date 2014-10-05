@@ -7,14 +7,14 @@ A brightness control solution for an Acer laptop in Ubuntu 14.04 with the keyboa
 What is it does?
 ====================
 
-It uses the default system brightness config files for set the bright level and store the current value.
-You can configure keyboard shortcuts for execute the tasks.
-Also it saves the last value of your screen brightness and sets it up when your laptop is restarted.
+It uses the default system brightness config files to set the brightness level and store the current value.
+Keyboard shortcuts can be configured to execute the tasks.
+It also saves the last value of your screen brightness and sets it up when your laptop is restarted.
 
  - bright_up.sh	-> Increments the brigtness level
  - bright_down.sh -> Decrements the brigtness level
  - bright_last.conf -> Saves the last brightness value
- - bright_start.sh -> Sets the needed permissions to the files and set the brightness to the value stored in bright_last.conf
+ - bright_start.sh -> Sets the required permissions to the files and sets the brightness to the value stored in bright_last.conf
 
 
 How to use
@@ -40,9 +40,9 @@ How to use
 Problems I found
 =====================
 
-When the computer is restarted the system files restore its original permission and the scripts can't change the brightness values. That is why bright_start.sh sets the permissions when is executed by /etc/rc.local at the startup.
+When the computer is restarted the system files restores its original permission and the scripts can't change the brightness values. This is why bright_start.sh sets the permissions when is executed by /etc/rc.local at the startup.
 
-Mi laptop doesn't support Fn key mapping and I have had to execute the scripts with the left control key.
+My laptop doesn't support Fn key mapping so I have had to execute the scripts with the left control key.
 
-I tried to show the system notification but the refresh it's to slow for be useful. If I use the default brightness  keys it shows me the brightness level updated because I'm using the files of the system for save the current values, but I couldn't find a method for show this information with the scripts.
+I tried to show it on the system notification but the refresh is too slow to be useful. If I use the default brightness keys it shows me the brightness level updated because I'm using the system files to save the current values, but I couldn't find a method for showing this information with the scripts.
      	
